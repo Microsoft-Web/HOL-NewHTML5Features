@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lab xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
+  <Id>NewHTML5Features</Id>
+  <Author>
+    <Blog>
+    </Blog>
+    <Email>
+    </Email>
+    <Name></Name>
+  </Author>
+  <Description>HTML5 is the emerging standard for building and writing HTML webpages for web sites and applications. HTML5 includes many new JavaScript APIs, providing features that could not previously be developed using JavaScript.
+
+Support for HTML5 began in Internet Explorer 8 with features such as Web Storage. Under Internet Explorer 10, support for HTML5 was vastly expanded, with JavaScript APIs such as Web Sockets, Web Workers, and Application Cache.
+
+This lab demonstrates the use of three major HTML5 JavaScript APIs that are supported in Internet Explorer 10: the Drag-and-Drop API, the File API, and the Web Workers API.
+  </Description>
+  <Document ConversionType="Html">.\HOL.md</Document>
+  <Title>New HTML5 Features</Title>
+  <Version>1.0.5</Version>
+  <Source>.\Source</Source>
+  <!-- <DependencyChecker>.\Source\Setup\Dependencies.depi</DependencyChecker> -->
+  <!-- <Technologies>
+    <Technology>Internet Explorer 10</Technology>
+  </Technologies> -->
+  <CustomProperties>    
+	<Property Name="GitHubRepository" Value="https://github.com/Microsoft-Web/HOL-NewHTML5Features" />
+  </CustomProperties>
+</Lab>
